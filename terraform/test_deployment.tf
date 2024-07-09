@@ -14,7 +14,7 @@ resource "kubernetes_manifest" "inflate" {
       namespace: ${kubernetes_namespace.inflate.metadata[0].name}
       name: inflate
     spec:
-      replicas: 10
+      replicas: 1
       selector:
         matchLabels:
           app: inflate
