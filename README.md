@@ -1,6 +1,6 @@
 # EKS Demo
 
-This repo contains a basic configuration of an EKS cluster with Karpenter installed. It utilised terraform and helm for IaC
+This repo contains a basic configuration of an EKS cluster with Karpenter installed. It utilises terraform and helm for IaC
 
 ```shell
 # 1. run terraform and wait for completion
